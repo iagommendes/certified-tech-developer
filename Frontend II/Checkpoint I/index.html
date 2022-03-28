@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,500;0,700;1,200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkpoint I</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Checkpoint I</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-    <form>
-        <label for="name">Nome do candidato:</label>
-        <input type="text" name="name" id="name">
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
+    <div class="container">
+        <div class="content">
+            <div class="elements-container">
+                <div id="users-container"></div>
+            </div>
+        </div>
+        <div class="navform">
+            <div class="nav-title">
+                <img width="56px" src="https://cdn-icons-png.flaticon.com/512/152/152756.png" alt="Logo" />
+                <h1>My top <span>fav</span> artist</h1>
+            </div>
+    
+            <div class="form-container">
+                <form>
+                  <label for="name">Artist:</label>
+                  <input type="text" name="name" id="name" />
+    
+                  <label for="email">Favorite Song:</label>
+                  <input type="email" name="email" id="email" />
+    
+                  <label for="img">URL pic:</label>
+                  <input type="text" name="img" id="img" />
+    
+                  <input type="submit" id="submit" value="Enviar" />
+                </form>
+            </div>
+        </div>
+      </div>
 
-        <label for="img">URL da foto:</label>
-        <input type="text" name="img" id="img">
 
-        <input type="submit" id="submit" value="Enviar">
-    </form>
-    <div id="users-container">
-        
+
+
+
+
     </div>
 
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
